@@ -3,6 +3,6 @@
 **Hello**, my name is *Luke Siecinski*. I am working at Chick-fil-A temporarily.
 
 ### Contact info: 
-1. Email: luke24ski@aol.com
-2. [Facebook](https://www.facebook.com/luke.siecinski) 
-3. [Twitter](https://twitter.com/lucas_ski24)
+* Email: luke24ski@aol.com
+* [Facebook](https://www.facebook.com/luke.siecinski) 
+* [Twitter](https://twitter.com/lucas_ski24)
