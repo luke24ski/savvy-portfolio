@@ -1,0 +1,16 @@
+.enblueify {
+    color: blue;
+}
+
+h3 {
+    font-size: 100px;
+}
+
+p {
+    background-color: aqua;
+    color: crimson;
+}
+
+#boldlinky {
+    font-weight: bold;
+}
