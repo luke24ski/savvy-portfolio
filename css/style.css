@@ -18,3 +18,8 @@ p {
 img {
     width: 50%;
 }
+
+span {
+    color: blue;
+    font-weight: bold;
+}
