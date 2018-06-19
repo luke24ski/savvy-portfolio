@@ -1,4 +1,38 @@
-.enblueify {
+body {
+    margin: 0;
+}
+
+#navigation {
+    background-color: lightpink;
+}
+
+#navigation > ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+#navigation > ul > li {
+    margin: 0 10px 0 0;
+    display: inline;
+}
+
+#header {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#content {
+    background-color: lightpink;
+    padding: 10px;
+}
+
+#footer {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.enblackify {
     color: black;
 }
 
@@ -12,7 +46,6 @@ p {
 
 .boldlinky {
     font-weight: bold;
-    background-color: lawngreen;
 }
 
 img {
