@@ -24,7 +24,9 @@ body {
 }
 
 #navigation {
-    background-color: lightpink;
+    background-color: lightgreen;
+    position: sticky;
+    top: 0;
 }
 
 #navigation > ul {
@@ -136,4 +138,24 @@ img {
 span {
     color: blue;
     font-weight: bold;
+}
+
+@media (min-width: 612px) {
+    body {
+        grid-template-columns: 150px auto;
+        grid-template-rows: min-content auto min-content;
+        grid-template-areas:
+        "navigation header"
+        "navigation content"
+        "navigation footer";
+    }
+
+    #navigation {
+        grid-area: navigation;
+    }
+
+    #navigation > ul {
+        flex-direction: column;
+        height: 50vh;
+    }
 }
