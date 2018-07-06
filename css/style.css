@@ -2,7 +2,7 @@ h1 {
     font-family: 'Markazi Text', serif;
 }
 
-body {
+#root {
     display: grid;
     grid-template-rows: min-content min-content auto min-content;
     grid-template-areas: 
@@ -137,7 +137,7 @@ span {
 }
 
 @media (min-width: 612px) {
-    body {
+    #root {
         grid-template-columns: 150px auto;
         grid-template-rows: min-content auto min-content;
         grid-template-areas:
