@@ -1,4 +1,5 @@
-export default `
+export default function Header(){
+    return `
     <div id="header">
         <div class="container">
             <h1 class="enblackify">Luke's Savvy Coders Portfolio</h1>
@@ -8,3 +9,4 @@ export default `
         </div>
     </div>
     `;
+}

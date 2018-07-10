@@ -56,8 +56,8 @@ h1 {
 
 #navigation a:hover + ul, 
 #navigation a + ul:hover {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 #content p + ul {
@@ -85,6 +85,7 @@ flex-direction: column;
 }
 
 #header {
+    background-image: url('../assets/congruent_pentagon/congruent_pentagon.png');
     background-color: lightblue;
     padding: 10px;
 }
