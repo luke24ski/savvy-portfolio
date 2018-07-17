@@ -2,22 +2,24 @@ import Navigation from './src/Navigation';
 import Header from './src/Header';
 import Content from './src/Content';
 import Footer from './src/Footer';
-// import greetUser from './src/Greeting';
 
-var Home = {
-    'title': "Luke Siecinski's Project"
-};
-
-var Blog = {
-    'title': 'Welcome to my Blog page'
-};
-
-var Contact = {
-    'title': 'Contact me'
-};
-
-var Projects = {
-    'title': 'Take a look at some of my projects'
+var State = {
+    'links': [ 'Blog', 'Contact', 'Projects' ],
+    'Home': {
+        'title': "Luke Siecinski's Project"
+    },
+    'links': [ 'Home', 'Contact', 'Projects' ],
+    'Blog': {
+        'title': 'Welcome to my Blog page'
+    },
+    'links': [ 'Home', 'Blog', 'Projects' ],
+    'Contact': {
+        'title': 'Contact me'
+    },
+    'links': [ 'Home', 'Blog', 'Contact' ],
+    'Projects': {
+        'title': 'Take a look at some of my projects'
+    },
 };
 
 var root = document.querySelector('#root');
@@ -26,6 +28,7 @@ function render(state){
     var greeting;
     var input;
     var links;
+    var i = 0;
 
     root.innerHTML = `
         ${Navigation}
@@ -49,33 +52,19 @@ function render(state){
 
     links = document.querySelectorAll('#navigation a');
 
-    links[0].addEventListener(
-        'click',
-        (event) => {
-            event.preventDefault();
+    while(i < links.length){
+        links[i].addEventListener(
+            'click',
+            (event) => {
+                var page = event.target.textContent;
 
-            render(Blog);
-        }
-    );
+                event.preventDefault();
 
-    links[1].addEventListener(
-        'click',
-        (event) => {
-            event.preventDefault();
-
-            render(Contact);
-        }
-    );
-
-    links[2].addEventListener(
-        'click',
-        (event) => {
-            event.preventDefault();
-
-            render(Projects);
-        }
-    );
+                render(State[page]);
+            }
+        );
+        i++;
+    }
 }
   
-render(Home);
-  
+render(State['Home']);
