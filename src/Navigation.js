@@ -3,7 +3,7 @@ function buildLinks(links){
     var result = '';
 
     while(i < links.length){
-        result += `<li><a href='/${links[i]}'>${links[i]}</a></li>`;
+        result += `<li><a href="/${links[i]}">${links[i]}</a></li>`;
 
         i++;
     }

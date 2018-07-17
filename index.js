@@ -4,20 +4,20 @@ import Content from './src/Content';
 import Footer from './src/Footer';
 
 var State = {
-    'links': [ 'Blog', 'Contact', 'Projects' ],
     'Home': {
+        'links': [ 'Blog', 'Contact', 'Projects' ],
         'title': "Luke Siecinski's Project"
     },
-    'links': [ 'Home', 'Contact', 'Projects' ],
     'Blog': {
+        'links': [ 'Home', 'Contact', 'Projects' ],
         'title': 'Welcome to my Blog page'
     },
-    'links': [ 'Home', 'Blog', 'Projects' ],
     'Contact': {
+        'links': [ 'Home', 'Blog', 'Projects' ],
         'title': 'Contact me'
     },
-    'links': [ 'Home', 'Blog', 'Contact' ],
     'Projects': {
+        'links': [ 'Home', 'Blog', 'Contact' ],
         'title': 'Take a look at some of my projects'
     },
 };
@@ -31,7 +31,7 @@ function render(state){
     var i = 0;
 
     root.innerHTML = `
-        ${Navigation}
+        ${Navigation(state)}
         ${Header(state)}
         ${Content}
         ${Footer}
