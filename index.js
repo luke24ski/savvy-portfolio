@@ -2,25 +2,7 @@ import Navigation from './src/Navigation';
 import Header from './src/Header';
 import Content from './src/Content';
 import Footer from './src/Footer';
-
-var State = {
-    'Home': {
-        'links': [ 'Blog', 'Contact', 'Projects' ],
-        'title': "Luke Siecinski's Project"
-    },
-    'Blog': {
-        'links': [ 'Home', 'Contact', 'Projects' ],
-        'title': 'Welcome to my Blog page'
-    },
-    'Contact': {
-        'links': [ 'Home', 'Blog', 'Projects' ],
-        'title': 'Contact me'
-    },
-    'Projects': {
-        'links': [ 'Home', 'Blog', 'Contact' ],
-        'title': 'Take a look at some of my projects'
-    },
-};
+import * as State from './store';
 
 var root = document.querySelector('#root');
 
@@ -29,7 +11,7 @@ function render(state){
     var input;
     var links;
     var i = 0;
-
+    
     root.innerHTML = `
         ${Navigation(state)}
         ${Header(state)}

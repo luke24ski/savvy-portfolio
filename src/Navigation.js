@@ -1,9 +1,11 @@
+import { lowerCase } from 'lodash';
+
 function buildLinks(links){
     var i = 0;
     var result = '';
 
     while(i < links.length){
-        result += `<li><a href="/${links[i]}">${links[i]}</a></li>`;
+        result += `<li><a href="/${lowerCase(links[i])}">${links[i]}</a></li>`;
 
         i++;
     }
@@ -12,6 +14,8 @@ function buildLinks(links){
 }
 
 export default function Navigation(state){
+    console.log(lowerCase);
+    
     return `
         <div id="navigation">
             <ul class="container"> 
