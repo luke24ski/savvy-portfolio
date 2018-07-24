@@ -1,5 +1,5 @@
 export default `
-        <form action="//formspree.io/luke24ski@aol.com" method="POST">
+        <form action="//formspree.io/luke24ski@gmail.com" method="POST">
         
         <input type="text" name="firstname" value="First Name" size="100" autofocus>
         <input type="text" name="lastname" value="Last Name" size="100">

@@ -3,12 +3,14 @@ import Header from './src/Header';
 import Content from './src/Content';
 import Footer from './src/Footer';
 import * as State from './store';
+import axios from 'axios';
 import Navigo from 'Navigo';
 import { capitalize } from 'lodash';
 
 var root = document.querySelector('#root');
 var router = new Navigo(location.origin);
 
+axios('https://jsonplaceholder.typicode.com/posts').then(console.log);
 function render(state){
     var greeting;
     var input;
