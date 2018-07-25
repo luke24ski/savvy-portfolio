@@ -10,17 +10,16 @@ import { capitalize } from 'lodash';
 var root = document.querySelector('#root');
 var router = new Navigo(location.origin);
 
-axios('https://jsonplaceholder.typicode.com/posts').then(console.log);
+State.posts = [];
+
 function render(state){
     var greeting;
     var input;
-    // var links;
-    // var i = 0;
     
     root.innerHTML = `
         ${Navigation(state)}
         ${Header(state)}
-        ${Content(state)}
+        ${Content(state, State.posts)}
         ${Footer}
     `;
 
@@ -50,3 +49,13 @@ router
     .on('/:page', handleRoute)
     .on('/', () => handleRoute({ 'page': 'home' }))
     .resolve();
+
+axios('https://jsonplaceholder.typicode.com/posts').then((response) => {
+    var params = router.lastRouteResolved().params;
+
+    State.posts = response.data;
+
+    if(params){
+        handleRoute(params);
+    }
+});
