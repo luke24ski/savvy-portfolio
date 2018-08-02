@@ -16,6 +16,11 @@ export default `
                     Twitter
                 </a>
                 </li>
+                <li>
+                <a href="https://github.com/luke24ski">
+                    <i class="fab fa-github"></i>
+                    github
+                </li>
             </ul>
             </div>
     `;
