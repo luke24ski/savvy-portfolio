@@ -11,9 +11,8 @@ export default `
                     </a>
                 </li>
                 <li>
-                <a href="https://twitter.com/lucas_ski24">
+                <a href="https://twitter.com/lucas_ski24" title = "twitter">
                     <i class="fab fa-twitter"></i>
-                    Twitter
                 </a>
                 </li>
                 <li>
