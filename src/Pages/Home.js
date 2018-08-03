@@ -1,11 +1,12 @@
 export default function Home(){
     return `
-        <p>Hello, my name is Luke Siecinski. I am working at Chick-fil-A temporarily.</p>
+    <h3>
+        <p>Hello, my name is Luke Siecinski. I am a beginner web developer eager to learn and get my hands dirty in the world of web development! One main reason I am so excited to get into the field of web development & computer programming is the endless opportunity there is in the industry. Here are a few thing about me:</p>
+    </h3>
         <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus modi, commodi tempore sed esse ex quod cumque velit iste soluta nemo iusto atque rem ut doloremque, at dolor incidunt.</li>
-            <li>Reiciendis aut ex aspernatur quasi atque eius molestias culpa vel perspiciatis ratione sequi maiores, nihil dolores quo, fuga itaque. Eaque totam odio praesentium. Dicta numquam nobis vel accusamus, alias pariatur!</li>
-            <li>Voluptate nesciunt debitis exercitationem in doloribus numquam cupiditate sequi quasi, fugiat odit vero laboriosam iure eaque aliquid voluptatum error est, atque fuga culpa, provident ducimus necessitatibus voluptatem ipsum quisquam? Placeat?</li>
-            <li>Necessitatibus, assumenda placeat? Deserunt, rem perspiciatis voluptatem quas sapiente obcaecati quibusdam dolore accusantium commodi molestiae nisi ipsa veniam deleniti hic dolores sunt sint officiis maxime vero iste, officia atque natus.</li>
+            <li>20 years old, been married for 2 years, & have a 11 month old son</li>
+            <li>Previously worked as a manager at Chick-fil-a in highschool, a truck driver for a fireplace & appliance company, & also worked in the inurance industry for two differant State Farm agents</li>
+            <li>Completed the intense Savvy Coders course and am ready to begin my journey and long-term career in the world of web development</li>
         </ul>
     `;
 }
