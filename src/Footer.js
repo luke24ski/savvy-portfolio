@@ -2,11 +2,6 @@ export default `
     <div id="footer">
             <ul class="boldlinky container">
                 <li>
-                    <a href="../contact" title="email">
-                        <i class="fal fa-envelope"></i>
-                    </a>
-                </li>
-                <li>
                     <a href="https://www.facebook.com/luke.siecinski" title="facebook">
                         <i class="fab fa-facebook"></i>
                     </a>
@@ -24,6 +19,11 @@ export default `
                 <li>
                     <a href="https://www.linkedin.com/in/luke-siecinski-13a207169/" title="linkedin">
                         <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="../contact" title="email">
+                        <i class="fas fa-envelope"></i>
                     </a>
                 </li>
             </ul>
