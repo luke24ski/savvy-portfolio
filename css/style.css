@@ -153,13 +153,21 @@ img {
     width: 100%;
     max-width: 500px;
     -webkit-box-shadow: -3px 5px 12px 5px rgba(0,0,0,0.51); 
-box-shadow: -3px 5px 12px 5px rgba(0,0,0,0.51);
+    box-shadow: -3px 5px 12px 5px rgba(0,0,0,0.51);
+    border: 0px solid #1C6EA4;
+    border-radius: 19px;
 }
 
-span {
-    color: blue;
-    font-weight: bold;
+/*.blinking{
+    animation:blinkingText 3s infinite;
 }
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+*/
 
 @media (min-width: 612px) {
     #root {
