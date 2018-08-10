@@ -14,6 +14,7 @@ State.posts = [];
 
 function render(state){
     var greeting;
+    var greetingLeft;
     var input;
     
     root.innerHTML = `
@@ -24,11 +25,22 @@ function render(state){
     `;
 
     greeting = document.querySelector('#greeting');
+    greetingLeft = document.querySelector('#greetingLeft');
     input = document.querySelector('#header input');
     
     input.addEventListener(
         'keyup',
         (event) => greeting.innerHTML = `
+            <div>
+              <div>The hidden div tag 'Greeting' gets added here</div>
+              <h4>${event.target.value}</h4>
+        </div>
+        `
+    );
+
+    input.addEventListener(
+        'keyup',
+        (event) => greetingLeft.innerHTML = `
             <div>
               <h3>Welcome to my home page,</h3>
               <h4>${event.target.value}</h4>
