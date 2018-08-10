@@ -2,8 +2,8 @@ export default function Contact(){
     return `
           <form action="//formspree.io/luke24ski@gmail.com" method="POST">
           
-          <input type="text" name="firstname" value="First Name" size="100" autofocus>
-          <input type="text" name="lastname" value="Last Name" size="100">
+          <input type="text" name="firstname" value="First Name" size="90" autofocus>
+          <input type="text" name="lastname" value="Last Name" size="90">
           <input type="email" name="userEmail" placeholder="your.email@example.com">
         
           <label>What's this message about?
@@ -31,7 +31,7 @@ export default function Contact(){
             <option value="other">Other</option>
           </select>
         
-          <textarea name="user_message" rows="8" cols="40"></textarea>
+          <textarea name="user_message" rows="5" cols="30"></textarea>
           <input type="submit">
         </form>
   `;

@@ -152,6 +152,8 @@ h1 {
 img {
     width: 100%;
     max-width: 500px;
+    -webkit-box-shadow: -3px 5px 12px 5px rgba(0,0,0,0.51); 
+box-shadow: -3px 5px 12px 5px rgba(0,0,0,0.51);
 }
 
 span {
@@ -161,8 +163,8 @@ span {
 
 @media (min-width: 612px) {
     #root {
-        grid-template-columns: 10% 50% 40%;
-        /*grid-template-rows: min-content auto min-content;*/
+        /*grid-template-columns: 10% 50% 40%;*/
+        grid-template-rows: min-content auto min-content;
         grid-template-areas: "navigation header content" "navigation header content" "navigation footer content";
     }
 
