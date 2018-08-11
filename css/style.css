@@ -12,8 +12,12 @@ h1 {
     "content"
     "footer";
     min-height: 100vh;
-    background-color: #2196f317;
-    /*background-image: url(../assets/port_page_logo.jpg);*/
+    /*background-color: #2196f317;*/
+    background: url(../assets/daniel-leone-185834-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .fa-envelope {
@@ -42,7 +46,7 @@ h1 {
 }
 
 #navigation {
-    background-color: #2196f317;
+    background-color: #00000017;
     position: sticky;
     top: 0;
 }
@@ -105,13 +109,13 @@ h1 {
 
 #header {
     padding: 10px;
-    color: #24292e;
+    color: #000000c4;
 }
 
 #content {
     padding: 10px;
     font-family: 'Open Sans', serif;
-    color: #24292e; 
+    color: #000000c4; 
     text-align: center;
 }
 
@@ -120,7 +124,7 @@ h1 {
 }
 
 .contentContainer {
-    padding: 75px;
+    padding-top: 75px;
 }
 
 #footer {
