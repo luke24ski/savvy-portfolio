@@ -31,9 +31,9 @@ function render(state){
     input.addEventListener(
         'keyup',
         (event) => greeting.innerHTML = `
-            <div>
-              <div>The hidden div tag 'Greeting' gets added here</div>
-              <h4>${event.target.value}</h4>
+        <div>
+            <div>This is where the hidden div 'Greeting' will be</div>
+            <h4>${event.target.value}</h4>
         </div>
         `
     );

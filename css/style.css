@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Markazi Text', serif;
+    font-family: 'Montserrat', serif;
     color: #24292e;
 }
 
@@ -110,20 +110,41 @@ h1 {
 #header {
     padding: 10px;
     color: #000000c4;
+    font-family: 'Open Sans', serif;
+}
+
+#header img {
+    width: 100%;
+    max-width: 500px;
+    -webkit-box-shadow: -3px 5px 12px 5px rgba(0,0,0,0.51); 
+    box-shadow: -3px 5px 12px 5px rgba(0,0,0,0.51);
+    border: 0px solid #1C6EA4;
+    border-radius: 19px;
+
+}
+
+#content img {
+    width: 25%;
+    opacity: .05;
 }
 
 #content {
-    padding: 10px;
-    font-family: 'Open Sans', serif;
+    padding: auto;
+    margin: auto;
+    font-family: 'Montserrat', serif;
     color: #000000c4; 
     text-align: center;
+}
+
+#content p {
+    font-family: 'Open Sans', serif;
 }
 
 #content h3 {
     font-size: 2em;
 }
 
-.contentContainer {
+.homeContentContainer {
     padding-top: 75px;
 }
 
@@ -159,22 +180,13 @@ h1 {
     font-weight: bold;
 }
 
-img {
-    width: 100%;
-    max-width: 500px;
-    -webkit-box-shadow: -3px 5px 12px 5px rgba(0,0,0,0.51); 
-    box-shadow: -3px 5px 12px 5px rgba(0,0,0,0.51);
-    border: 0px solid #1C6EA4;
-    border-radius: 19px;
-}
-
 .lukeblurb {
 padding: 15px;
 margin-top: 50px;
 
 }
 
-.blinking{
+/*.blinking{
     animation:blinkingText 5s infinite;
 }
 @keyframes blinkingText{
@@ -183,6 +195,10 @@ margin-top: 50px;
     50%{    color: transparent; }
     99%{    color:transparent;  }
     100%{   color: #000;    }
+}*/
+
+form {
+    padding: 100px;
 }
 
 @media (min-width: 612px) {
