@@ -1,9 +1,10 @@
 export default function Contact(){
     return `
+            <h3>Feel free to contact me and ask me any questions</h3>
           <form action="//formspree.io/luke24ski@gmail.com" method="POST">
           
-          <input type="text" name="firstname" placeholder="First Name" size="90" autofocus>
-          <input type="text" name="lastname" placeholder="Last Name" size="90">
+          <input type="text" name="firstname" placeholder="First Name" size="69" autofocus>
+          <input type="text" name="lastname" placeholder="Last Name" size="69">
           <input type="email" name="userEmail" placeholder="your.email@example.com">
         
           <label>What's this message about?

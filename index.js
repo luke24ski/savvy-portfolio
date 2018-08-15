@@ -33,7 +33,7 @@ function render(state){
         (event) => greeting.innerHTML = `
         <div>
             <div>This is where the hidden div 'Greeting' will be</div>
-            <h4>${event.target.value}</h4>
+            <h1>${event.target.value}</h1>
         </div>
         `
     );
