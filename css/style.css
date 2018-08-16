@@ -67,7 +67,7 @@ h1 {
 
 #navigation a {
     position: relative;
-    color: #24292e7d;
+    color: #ffffff70;
     text-decoration-line: none;
     font-family: 'Montserrat', serif;
     font-size: 10px;
@@ -131,7 +131,7 @@ h1 {
 
 #content img {
     width: 25%;
-    opacity: .05;
+    opacity: 1;
 }
 
 #content {
