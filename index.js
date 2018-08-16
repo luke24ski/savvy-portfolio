@@ -32,7 +32,6 @@ function render(state){
         'keyup',
         (event) => greeting.innerHTML = `
         <div>
-            <div>This is where the hidden div 'Greeting' will be</div>
             <h1>${event.target.value}</h1>
         </div>
         `
