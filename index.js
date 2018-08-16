@@ -6,6 +6,7 @@ import * as State from './store';
 import axios from 'axios';
 import Navigo from 'navigo';
 import { capitalize } from 'lodash';
+import logo from './assets/port_page_logo.jpg';
 
 var root = document.querySelector('#root');
 var router = new Navigo(location.origin);
@@ -33,6 +34,7 @@ function render(state){
         (event) => greeting.innerHTML = `
         <div>
             <h1>${event.target.value}</h1>
+            <img src="${logo}">
         </div>
         `
     );

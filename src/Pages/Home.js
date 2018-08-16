@@ -4,8 +4,8 @@ export default function Home(){
         <p>| A beginner web developer eager to learn and get my hands dirty in the creative world of programming and web development! One main reason I am so excited to get into the field of web development is the endless opportunity there is in the industry |</p>
         <p>| Feel free to check out the blog, contact me, or look at some of my projects |</p>
         <div>
-            <h1>Look here!</h1>
-            <div id="greeting"></div>
+            <h1>Look here!</h1><div id="greeting">
+            </div>
         </div>
     `;
 }

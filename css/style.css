@@ -1,7 +1,7 @@
 h1 {
     font-family: 'Montserrat', serif;
     color: white;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
 }
 
 #root {
@@ -73,7 +73,7 @@ h1 {
     font-size: 10px;
     font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
 }   
 
 #navigation a + ul {
@@ -148,7 +148,7 @@ h1 {
 
 #content h3 {
     font-size: 2em;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
 }
 
 .contactH3 {
